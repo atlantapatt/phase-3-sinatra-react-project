@@ -23,19 +23,22 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/reviews' do
-    # review = Reviews.create(
-    #   rating: params[:rating]
-    #   comment: params[:comment]
-    #   clothes_id: params[:clothes_id]
-    #   user_id: params[:user_id]
-    # )
-    # review.to_json
+    review = Reviews.create(
+      rating: params[:rating],
+      comment: params[:comment],
+      clothes_id: params[:clothes_id],
+      user_id: params[:user_id],
+      id: params[:id]
+    )
+    review.to_json
   end
 
   post '/users' do
    user = Users.create(
-    username: params[:username]
+    username: params[:username],
+    id: params[:id]
    )
+   user.to_json
   end
 
 end

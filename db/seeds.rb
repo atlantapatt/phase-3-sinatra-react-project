@@ -33,7 +33,7 @@ Clothes.create([
     {
         id: 2,
         image: "/satinmidiskirt.jpg",
-        price: "56.80",
+        price: "56.85",
         name: "Satin Midi Skirt",
         store_id: 3,
         category: 'Bottoms',
@@ -117,7 +117,7 @@ Clothes.create([
     {
         id: 8,
         image: "/fleeceplaidjacket.jpg",
-        price: "55.80",
+        price: "55.85",
         name: "Fleece Plaid Jacket",
         store_id: 1,
         category: "Jackets",
@@ -130,7 +130,7 @@ Clothes.create([
     {
         id: 9,
         image: "/sweetheartneckruffledress.jpg",
-        price: "53.40",
+        price: "53.45",
         name: "Sweetheart Neck Ruffle Dress",
         store_id: 3,
         category: "Dresses",

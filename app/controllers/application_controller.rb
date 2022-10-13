@@ -38,7 +38,7 @@ class ApplicationController < Sinatra::Base
     review = Review.create(
       rating: params[:rating],
       comment: params[:comment],
-      clothes_id: params[:clothes_id],
+      clothe_id: params[:clothe_id],
       user_id: params[:user_id],
       # id: params[:id]
     )

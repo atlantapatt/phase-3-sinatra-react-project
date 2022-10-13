@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_04_230328) do
+ActiveRecord::Schema.define(version: 2022_10_13_220820) do
 
   create_table "clothes", force: :cascade do |t|
     t.string "image"
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2022_10_04_230328) do
   create_table "reviews", force: :cascade do |t|
     t.integer "rating"
     t.string "comment"
-    t.integer "clothes_id"
+    t.integer "clothe_id"
     t.integer "user_id"
   end
 

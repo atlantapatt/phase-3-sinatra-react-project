@@ -1,4 +1,4 @@
-puts "🌱 Seeding spices..."
+puts "🌱 Seeding spices..." 
 
 # Seed your database here
 Store.create([
@@ -15,9 +15,9 @@ Store.create([
         location: "Seattle"
     }
 ])
-Clothes.create([
+Clothe.create([
     {
-        id: 1,
+        # id: 1,
         image: "/highwaistjeans.jpg" ,
         price: "89.97",
         name: "High Waist Jeans" ,
@@ -31,7 +31,7 @@ Clothes.create([
         "
     },
     {
-        id: 2,
+        # id: 2,
         image: "/satinmidiskirt.jpg",
         price: "56.85",
         name: "Satin Midi Skirt",
@@ -45,7 +45,7 @@ Clothes.create([
         "
     },
     {
-        id: 3,
+        # id: 3,
         image: "/blackblazer.jpg",
         price: "129.00",
         name: "Black Collared Blazer",
@@ -63,7 +63,7 @@ Clothes.create([
         "
     },
     {
-        id: 4,
+        # id: 4,
         image: "/blacksheathdress.jpg",
         price: "62.00",
         name: "Sheath Dress",
@@ -76,7 +76,7 @@ Clothes.create([
         Imported"
     },
     {
-        id: 5,
+        # id: 5,
         image: "/stripedbuttonupshirt.jpg",
         price: "195.00",
         name: "Striped Button Up Shirt",
@@ -89,7 +89,7 @@ Clothes.create([
         Imported"
     },
     {
-        id: 6,
+        # id: 6,
         image: "/oneshouldersatintop.jpg",
         price: "59.00",
         name: "One Shoulder Satin Top",
@@ -102,7 +102,7 @@ Clothes.create([
         Imported"
     },
     {
-        id: 7,
+        # id: 7,
         image: "/alinemomshorts.jpg",
         price: "42.95",
         name: "A-Line Mom Shorts",
@@ -115,7 +115,7 @@ Clothes.create([
         Made in Turkey"
     },
     {
-        id: 8,
+        # id: 8,
         image: "/fleeceplaidjacket.jpg",
         price: "55.85",
         name: "Fleece Plaid Jacket",
@@ -128,7 +128,7 @@ Clothes.create([
         Imported"
     },
     {
-        id: 9,
+        # id: 9,
         image: "/sweetheartneckruffledress.jpg",
         price: "53.45",
         name: "Sweetheart Neck Ruffle Dress",
@@ -141,7 +141,7 @@ Clothes.create([
         Imported"
     },
     {
-        id: 10,
+        # id: 10,
         image: "/longlinecardigan.jpg",
         price: "68.00",
         name: "Longline Cardigan",
@@ -154,7 +154,7 @@ Clothes.create([
         Made in the UK"
     },
     {
-        id: 11,
+        # id: 11,
         image: "/rawdenimminiskirt.jpg",
         price: "47.00",
         name: "Raw Denim Mini Skirt",
@@ -167,7 +167,7 @@ Clothes.create([
         Made in Turkey"
     },
     {
-        id: 12,
+        # id: 12,
         image: "/vneckcroptank.jpg",
         price: "16.25",
         name: "V Neck Crop Tank",
@@ -180,7 +180,7 @@ Clothes.create([
         Imported"
     },
     {
-        id: 13,
+        # id: 13,
         image: "/feathertripsequindress.jpg",
         price: "248.00",
         name: "Feather Trim Sequin Dress",
@@ -194,75 +194,75 @@ Clothes.create([
     }
 ])
 
-Reviews.create([
+Review.create([
     {
-        id: 1,
+        # id: 1,
         rating: 5,
         comment: "Love the color!",
-        clothes_id: 2,
+        clothe_id: 2,
         user_id: 1
     },
     {
-        id: 2,
+        # id: 2,
         rating: 4,
         comment: "It was a little big.",
-        clothes_id: 1,
+        clothe_id: 1,
         user_id: 2
     },
     {
-        id: 3,
+        # id: 3,
         rating: 5,
         comment: "I love how trendy it is!!",
-        clothes_id: 3,
+        clothe_id: 3,
         user_id: 4
     },
     {
-        id: 4,
+        # id: 4,
         rating: 3,
         comment: "Makes me look boxy",
-        clothes_id: 4,
+        clothe_id: 4,
         user_id: 3
     },
     {
-        id: 5,
+        # id: 5,
         rating: 5,
         comment: "I love this! Perfect for work!",
-        clothes_id: 5,
+        clothe_id: 5,
         user_id: 5
     }
 ])
 
-Users.create([
+User.create([
     {
-        id: 1,
+        # id: 1,
         username: "harshoutfit"
     },
     {
-        id: 2,
+        # id: 2,
         username: "formalelastic"
     },
     {
-        id: 3,
+        # id: 3,
         username: "cyclingrye"
     },
     {
-        id: 4,
+        # id: 4,
         username: "zebradogcat"
     },
     {
-        id: 5,
+        # id: 5,
         username: "jeanie"
     },
     {
-        id: 6,
+        # id: 6,
         username: "iluvcorsets"
     },
     {
-        id: 7,
+        # id: 7,
         username: "lowrisewonder"
     },
     {
-        id: 8,
+        # id: 8,
         username: "worryskirt"
     },
     
